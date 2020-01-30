@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+
+      <div class="row" id="col-heading">
+        <div class="col-md-2">
+          Time
+        </div>
+        <div class="col-md-8">
+          Description
+        </div>
+        <div class="col-md-2">
+          Save
+        </div>
+      </div>
+
+      <div class="row" id="9am">
+        <div class="col-md-2">9am</div>
+        <div class="col-md-8">
+          <textarea name="description" id="9amText"></textarea>
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="saveBtn" id="9am">Save</button>
+        </div>
+      </div>
+
+      <div class="row" id="10am">
+        <div class="col-md-2">10am</div>
+        <div class="col-md-8">
+          <textarea name="description" id="textInput"></textarea>
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row" id="11am">
+        <div class="col-md-2">11am</div>
+        <div class="col-md-8">
+          <textarea name="description" id="textInput"></textarea>
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row" id="12pm">
+        <div class="col-md-2">12pm</div>
+        <div class="col-md-8">
+          <textarea name="description" id="textInput"></textarea>
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="saveBtn">Save</button>
+        </div>
+      </div>
+      <div class="row" id="1pm">
+        <div class="col-md-2">1pm</div>
+        <div class="col-md-8">
+          <textarea name="description" id="textInput"></textarea>
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="saveBtn">Save</button>
+        </div>
+      </div>
+      <div class="row" id="2pm">
+        <div class="col-md-2">2pm</div>
+        <div class="col-md-8">
+          <textarea name="description" id="textInput"></textarea>
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="saveBtn">Save</button>
+        </div>
+      </div>
+      <div class="row" id="3pm">
+        <div class="col-md-2">3pm</div>
+        <div class="col-md-8">
+          <textarea name="description" id="textInput"></textarea>
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="saveBtn">Save</button>
+        </div>
+      </div>
+      <div class="row" id="4pm">
+        <div class="col-md-2">4pm</div>
+        <div class="col-md-8">
+          <textarea name="description" id="textInput"></textarea>
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="saveBtn">Save</button>
+        </div>
+      </div>
+      <div class="row" id="5pm">
+        <div class="col-md-2">5pm</div>
+        <div class="col-md-8">
+          <textarea name="description" id="textInput"></textarea>
+        </div>
+        <div class="col-md-2">
+          <button type="button" class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <!-- Timeblocks go here -->
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="javascriptplanner.js"></script>
+  </body>
+</html>
